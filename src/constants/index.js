@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  solidity,
 } from "../assets";
 
 export const navLinks = [
@@ -77,17 +78,26 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "solidity",
+    icon: solidity,
+  },
+  {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
     name: "Redux Toolkit",
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Three JS",
+    icon: threejs,
   },
+
   {
     name: "Node JS",
     icon: nodejs,
@@ -96,10 +106,7 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
@@ -107,10 +114,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
