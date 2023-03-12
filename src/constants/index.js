@@ -138,10 +138,12 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "November 2021 - November 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spearheaded the development of game assets for a blockchain game utilizing Blender and Unreal Engine. ",
+      "Built responsive & dynamic web pages using React & Tailwind CSS",
+      "Managed production deployment with Github, Netlify, and Vercel",
+      "Deployed & tested Solidity smart contracts using Hardhat & Truffle",
+      "Acquired the ability to interface with smart contracts from a front end using Ethers.js",
+      "Developed proficiency in utilizing 3D elements in the browser using Three.js & React Three Fiber",
     ],
   },
   {
@@ -151,10 +153,11 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2020 - November 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Crafted and implemented custom Discord bots using discord.js empowering users to perform routine tasks with automation.",
+      "Implemented a successful project management system to prioritize and organize company goals and objectives.",
+      "Designed UI components and interactive prototypes using Figma",
+      "Effectively brought Figma designs to life by transitioning them to a fully functional and visually appealing web app.",
+      "Developed and implemented a Node.js script that effectively randomized PNG layers in the Canvas.",
     ],
   },
 ];
