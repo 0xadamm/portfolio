@@ -30,6 +30,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import sss from "./sss.png";
+import cheetah from "./cheetah-gang-wine.png";
+import baddies from "./baddies.png";
 
 export {
   logo,
@@ -61,4 +64,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  sss,
+  cheetah,
+  baddies,
 };

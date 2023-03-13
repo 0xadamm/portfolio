@@ -24,6 +24,9 @@ import {
   tripguide,
   threejs,
   solidity,
+  sss,
+  cheetah,
+  baddies,
 } from "../assets";
 
 export const navLinks = [
@@ -169,7 +172,8 @@ const testimonials = [
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image:
+      "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
@@ -185,74 +189,81 @@ const testimonials = [
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image:
+      "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Secret Snail Society",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "4444 Secret Snails that live on the Ethereum blockchain are here to travel the multiverse of swamps Secret Snails believe in creating a unique environment and community while combining the physical and digital worlds in a way that enables all secret snails to to connect with each other create strong friendships ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "solidity",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: sss,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Cheetah Gang",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Forward to New Year 2030, and these fierce felines that were once agile have become lazy, slow and clumsy on the planet. And yes, these elegant animals are racing towards extinction on our planet. Very few cheetahs are left on the planet due to hunting by humans, climate change and habitat destruction. Due to these reasons, the population of cheetahs is decreasing day by day. ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "solidity",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: cheetah,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Blockchain Baddies",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Blockchain Baddiues are the hottest NFTs on the blockchain. We're a collection of 10,000 unique NFTs who rule the under world off the ETH blockchain. Ownership includes creative/ commercial rights of your Baddie.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "solidity",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: baddies,
     source_code_link: "https://github.com/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+};
