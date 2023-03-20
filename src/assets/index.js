@@ -26,6 +26,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import truth from "./company/truth.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -35,6 +36,7 @@ import cheetah from "./cheetah-gang-wine.png";
 import baddies from "./baddies.png";
 
 export {
+  truth,
   logo,
   backend,
   creator,

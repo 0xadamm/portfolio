@@ -27,6 +27,7 @@ import {
   sss,
   cheetah,
   baddies,
+  truth,
 } from "../assets";
 
 export const navLinks = [
@@ -168,29 +169,20 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image:
-      "https://randomuser.me/api/portraits/women/4.jpg",
+      "Adam has consistently demonstrated a remarkable ability to transform complex data sets into meaningful, actionable insights that have significantly contributed to the success of our projects.",
+    name: "Truth",
+    designation: "Head of Strategic Marketing",
+    company: "Raycon Global",
+    image: truth,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "In addition to his technical expertise, Adam is a fantastic team player and possesses excellent communication skills, ensuring seamless collaboration with colleagues from various backgrounds and expertise levels.",
+    name: "Jojo Ryder",
+    designation: "Executive Producer",
+    company: "Ryder Media",
     image:
-      "https://randomuser.me/api/portraits/women/6.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGtNDVaMCZf0DMEZ1c8So1tJW7hbIphtqcj5YsBBY-w1RQA_imGhxKJWHcIRzMkSkI154&usqp=CAU",
   },
 ];
 

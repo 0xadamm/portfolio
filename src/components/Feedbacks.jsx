@@ -30,7 +30,7 @@ const FeedbackCard = ({
             {name}
           </p>
           <p className="mt-1 text-secondary text-[12px]">
-            {designation} of {company}
+            {designation} {company}
           </p>
         </div>
 
