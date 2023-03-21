@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import adam from "./AdamLogo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -36,6 +37,7 @@ import cheetah from "./cheetah-gang-wine.png";
 import baddies from "./baddies.png";
 
 export {
+  adam,
   truth,
   logo,
   backend,
