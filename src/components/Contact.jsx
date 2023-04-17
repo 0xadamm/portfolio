@@ -65,7 +65,7 @@ const Contact = () => {
 		});
 		const link = document.createElement("a");
 		link.href = URL.createObjectURL(blob);
-		link.setAttribute("download", "contact.vcf");
+		link.setAttribute("download", "Adam Mourade.vcf");
 		link.style.display = "none";
 		document.body.appendChild(link);
 		link.click();
