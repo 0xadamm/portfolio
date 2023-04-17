@@ -7,6 +7,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import SectionWrapper from "../hoc";
 import { slideIn } from "../utils/motion";
+import { vCardData } from "../constants/vCardData";
 
 const Contact = () => {
 	const formRef = useRef(null);
@@ -59,16 +60,6 @@ const Contact = () => {
 	};
 
 	const downloadVCard = () => {
-		const vCardData = `BEGIN:VCARD
-					VERSION:3.0
-						N:YourLastName;YourFirstName
-				FN:YourFirstName YourLastName
-			ORG:Your Company
-			TITLE:Your Title
-			TEL;TYPE=WORK,VOICE:(123) 456-7890
-			EMAIL;TYPE=PREF,INTERNET:your.email@example.com
-			END:VCARD`;
-
 		const blob = new Blob([vCardData], {
 			type: "text/vcard;charset=utf-8;",
 		});
@@ -146,7 +137,7 @@ const Contact = () => {
 							onClick={downloadVCard}
 							className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
 						>
-							Download vCard
+							Contact Now
 						</button>
 					</div>
 				</form>
