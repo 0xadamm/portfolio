@@ -5,8 +5,8 @@ FN:Adam Mourade
 ORG:Vertx Labs
 TITLE:CEO
 TEL;TYPE=WORK,VOICE:1 (323) 364-4080
-TEL;TYPE=HOME,VOICE:1 (323) 369-1776
-EMAIL;TYPE=PREF,INTERNET:adam.mourade@gmail.com
+TEL;TYPE=personal,VOICE:1 (323) 369-1776
+EMAIL;TYPE=personal,INTERNET:adam.mourade@gmail.com
 EMAIL;TYPE=WORK,INTERNET:adam@vertxlabs.com
 EMAIL;TYPE=WORK,INTERNET:adam@vertxdesigns.com
 URL;TYPE=portfolio:https://0xadamm-portfolio.vercel.app/
