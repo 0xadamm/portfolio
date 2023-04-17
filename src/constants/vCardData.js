@@ -11,4 +11,5 @@ EMAIL;TYPE=WORK,INTERNET:adam@vertxlabs.com
 EMAIL;TYPE=WORK,INTERNET:adam@vertxdesigns.com
 URL;TYPE=WORK:https://0xadamm-portfolio.vercel.app/
 URL;TYPE=WORK:https://www.vertxdesigns.com
+PHOTO;VALUE=URI;TYPE=JPEG:https://media.licdn.com/dms/image/C5603AQHrbZL8aqsBJw/profile-displayphoto-shrink_100_100/0/1661752805681?e=1687392000&v=beta&t=dNLWycY1baq6L6gto5FfmmDq_TsoKxGH_NWWVh5Axsg
 END:VCARD`;
