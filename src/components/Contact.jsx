@@ -135,9 +135,9 @@ const Contact = () => {
 						<button
 							type="button"
 							onClick={downloadVCard}
-							className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+							className=" md:hidden bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
 						>
-							Contact Now
+							Contact Card
 						</button>
 					</div>
 				</form>
