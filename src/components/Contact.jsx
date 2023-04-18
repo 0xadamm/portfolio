@@ -60,8 +60,11 @@ const Contact = () => {
 	};
 
 	const downloadVCard = () => {
+		const blob = new Blob([vCardData], {
+			type: "text/vcard;charset=utf-8;",
+		});
 		const link = document.createElement("a");
-		link.href = "/contact/adam.vcf";
+		link.href = URL.createObjectURL(blob);
 		link.setAttribute("download", "Adam Mourade.vcf");
 		link.style.display = "none";
 		document.body.appendChild(link);
